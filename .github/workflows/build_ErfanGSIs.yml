@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://th7sdrive.herokuapp.com/OD01/Firmware/T11.zip
+  ROM_URL: https://public.etiantian.com/allftpupload/yunying/lxsjb/TB-X605F_USER_S000005_20210108_SZLC.zip?
   ROM_NAME: Generic
-  BUILD_TYPE: aonly
+  BUILD_TYPE: ab
   TZ: Asia/Shanghai
 
 jobs:

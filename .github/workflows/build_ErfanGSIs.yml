@@ -16,7 +16,7 @@ on:
 env:
   ROM_URL: https://th7sdrive.herokuapp.com/OD01/Firmware/T11.zip
   ROM_NAME: Generic
-  BUILD_TYPE: ab
+  BUILD_TYPE: a
   TZ: Asia/Shanghai
 
 jobs:

@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://public.etiantian.com/allftpupload/yunying/lxsjb/TB-X504F_S000999_20200921_BJSZ.zip?
+  ROM_URL: https://th7sdrive.herokuapp.com/OD01/Firmware/TB-J716F_CN_OPEN_USER_Q00209.3_R_ZUI_12.6.238_ST_210824_to_TB-J716F_CN_OPEN_USER_Q00209.3_R_ZUI_13.0.346_ST_211108.zip
   ROM_NAME: Generic
   BUILD_TYPE: ab
   TZ: Asia/Shanghai

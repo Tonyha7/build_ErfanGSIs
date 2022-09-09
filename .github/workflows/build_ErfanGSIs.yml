@@ -14,10 +14,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://th7sdrive.herokuapp.com/OD01/Firmware/TB-J716F_CN_OPEN_USER_Q00209.3_R_ZUI_12.6.238_ST_210824_to_TB-J716F_CN_OPEN_USER_Q00209.3_R_ZUI_13.0.346_ST_211108.zip
+  ROM_URL: https://th7sdrive.herokuapp.com/OD01/Firmware/BZC-W00_unpack.zip
   ROM_NAME: Generic
   BUILD_TYPE: ab
-  TZ: Asia/Shanghai
+  RELEASE: BusinC_W00C_ENTC193E5R1P1
+#  TZ: Asia/Shanghai
 
 jobs:
   build:
@@ -68,6 +69,6 @@ jobs:
          uses: ncipollo/release-action@v1.8.6
          with:
            artifacts: ${{ github.workspace }}/ErfanGSIs/output/upload/*
-           name: ErfanGSIs-${{ env.ROM_NAME }}-${{ env.BUILD_TYPE }}
+           name: ${{ env.RELEASE }}-${{ env.BUILD_TYPE }}
            tag: ErfanGSIs-${{ env.ROM_NAME }}-${{ env.BUILD_TYPE }}-${{ github.run_number }}
            token: ${{ secrets.GITHUB_TOKEN }}

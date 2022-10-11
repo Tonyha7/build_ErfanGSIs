@@ -16,7 +16,7 @@ on:
 env:
   ROM_URL: https://th7sdrive.herokuapp.com/OD05/Firmware/rom_271_teacher0929T11tea.zip
   ROM_NAME: Generic
-  BUILD_TYPE: ab
+  BUILD_TYPE: aonly
   RELEASE: T11_Teacher
 #  TZ: Asia/Shanghai
 

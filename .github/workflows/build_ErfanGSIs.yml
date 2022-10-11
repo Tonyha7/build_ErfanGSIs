@@ -14,10 +14,10 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://th7sdrive.herokuapp.com/OD01/Firmware/BZC-W00_unpack.zip
+  ROM_URL: https://th7sdrive.herokuapp.com/OD05/Firmware/rom_271_teacher0929T11tea.zip
   ROM_NAME: Generic
   BUILD_TYPE: ab
-  RELEASE: BusinC_W00C_ENTC193E5R1P1
+  RELEASE: T11_Teacher
 #  TZ: Asia/Shanghai
 
 jobs:

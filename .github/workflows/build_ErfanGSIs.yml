@@ -50,12 +50,14 @@ jobs:
        - name: Download Stock Rom & Generate GSI
          run: |
              cd $GITHUB_WORKSPACE/ErfanGSIs
-             sudo bash ./url2GSI.sh -c --$BUILD_TYPE $ROM_URL $ROM_NAME             
+             sudo bash ./url2GSI.sh -c --$BUILD_TYPE $ROM_URL $ROM_NAME     
+             7za a -t7z -r upload.7z ./output/*
+             ls
               
        - name: Upload SGSI to action-release...
          uses: ncipollo/release-action@v1.8.6
          with:
-           artifacts: ${{ github.workspace }}/ErfanGSIs/output/*
+           artifacts: ${{ github.workspace }}/ErfanGSIs/upload.7z
            name: ${{ env.RELEASE }}-${{ env.BUILD_TYPE }}
            tag: ErfanGSIs-${{ env.ROM_NAME }}-${{ env.BUILD_TYPE }}-${{ github.run_number }}
            token: ${{ secrets.GITHUB_TOKEN }}

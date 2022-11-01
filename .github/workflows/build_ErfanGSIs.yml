@@ -14,10 +14,10 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://th7sdrive.herokuapp.com/OD05/Firmware/lineage-17.1-20220411-UNOFFICIAL-marlin.zip
+  ROM_URL: https://th7sdrive.herokuapp.com/OD05/Firmware/aosp10r2_marlin_mikrom.zip
   ROM_NAME: Generic
   BUILD_TYPE: ab
-  RELEASE: MIKROM_LineageOS17.1
+  RELEASE: MIKROM
 #  TZ: Asia/Shanghai
 
 jobs:

@@ -14,10 +14,10 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://th7sdrive.herokuapp.com/OD05/Firmware/aosp10r2_sailfish_mikrom.zip
+  ROM_URL: https://link.jscdn.cn/googledrive/direct/aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xLTBuY0Z3OUN4Q0xSOUJnMFE2dXpkWmdSY3doSXluZTMvdmlldz91c3A9c2hhcmVfbGluaw.zip
   ROM_NAME: Generic
   BUILD_TYPE: ab
-  RELEASE: MIKROM
+  RELEASE: X605FC_BJSZ
 #  TZ: Asia/Shanghai
 
 jobs:

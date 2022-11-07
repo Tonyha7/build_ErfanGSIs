@@ -14,10 +14,10 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://drive.google.com/uc?export=download&id=1--5kgb8T_O9HixIZp0X8MPtDOYcglVoK
+  ROM_URL: https://th7sdrive.herokuapp.com/OD05/Firmware/9707f.zip
   ROM_NAME: Generic
   BUILD_TYPE: ab
-  RELEASE: 9707F
+  RELEASE: TB-9707F
 #  TZ: Asia/Shanghai
 
 jobs:

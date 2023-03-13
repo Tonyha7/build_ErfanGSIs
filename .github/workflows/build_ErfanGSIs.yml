@@ -14,10 +14,10 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://th7sdrive.herokuapp.com/OD05/Firmware/9707f.zip
+  ROM_URL: https://bigota.d.miui.com/V14.0.4.0.TKXCNXM/miui_NABU_V14.0.4.0.TKXCNXM_4a5416de6f_13.0.zip
   ROM_NAME: Generic
   BUILD_TYPE: ab
-  RELEASE: TB-9707F
+  RELEASE: MIUI14_NABU
 #  TZ: Asia/Shanghai
 
 jobs:

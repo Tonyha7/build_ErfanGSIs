@@ -14,10 +14,10 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/V14.0.4.0.TKXCNXM/miui_NABU_V14.0.4.0.TKXCNXM_4a5416de6f_13.0.zip
+  ROM_URL: https://bigota.d.miui.com/V14.0.23.3.7.DEV/miui_NABU_V14.0.23.3.7.DEV_ae88582657_13.0.zip
   ROM_NAME: Generic
   BUILD_TYPE: ab
-  RELEASE: MIUI14_NABU
+  RELEASE: MIUI14_NABU_DEV230307
 #  TZ: Asia/Shanghai
 
 jobs:

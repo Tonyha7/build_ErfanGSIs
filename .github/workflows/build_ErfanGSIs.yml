@@ -14,10 +14,10 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/V14.0.23.3.7.DEV/miui_NABU_V14.0.23.3.7.DEV_ae88582657_13.0.zip
+  ROM_URL: https://bigota.d.miui.com/V13.1.22.11.21.DEV/miui_ELISH_V13.1.22.11.21.DEV_8c51a4e751_12.0.zip
   ROM_NAME: Generic
   BUILD_TYPE: ab
-  RELEASE: MIUI14_NABU_DEV230307
+  RELEASE: MIUI13_elish_221121
 #  TZ: Asia/Shanghai
 
 jobs:

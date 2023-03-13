@@ -14,10 +14,10 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/V13.1.22.11.21.DEV/miui_ELISH_V13.1.22.11.21.DEV_8c51a4e751_12.0.zip
+  ROM_URL: https://bigota.d.miui.com/V14.0.5.0.SJDCNXM/miui_APOLLO_V14.0.5.0.SJDCNXM_e727f2446b_12.0.zip
   ROM_NAME: Generic
   BUILD_TYPE: ab
-  RELEASE: MIUI13_elish_221121
+  RELEASE: MIUI14_apollo_12
 #  TZ: Asia/Shanghai
 
 jobs:
